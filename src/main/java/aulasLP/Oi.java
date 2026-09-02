@@ -1,3 +1,5 @@
+package aulasLP;
+
 public class Oi {
 
     static void main(String[] args){

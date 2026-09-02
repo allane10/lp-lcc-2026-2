@@ -1,10 +1,12 @@
+package aulasLP;
+
 import javax.swing.JOptionPane;
 
 public class Aula02 {
     public static void main (String[] args){
 
         String nome = JOptionPane.showInputDialog("Digite seu nome: ");
-        System.out.println("Oi, "+ nome);
+        System.out.println("aulasLP.Oi, "+ nome);
 
         String idadeString = JOptionPane.showInputDialog("Digite sua idade: ");
         int idade = Integer.parseInt(idadeString);
