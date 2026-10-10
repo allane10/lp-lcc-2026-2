@@ -1,4 +1,4 @@
-package br.ufpb.dcx.allane.ProgramaVotacao;
+package br.ufpb.dcx.allane.programavotacao;
 
 public class Voto {
     private String codigo;

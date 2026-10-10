@@ -1,4 +1,4 @@
-package br.ufpb.dcx.allane.ProgramLivraria;
+package br.ufpb.dcx.allane.programlivraria;
 
 public class Livro {
     private String titulo;

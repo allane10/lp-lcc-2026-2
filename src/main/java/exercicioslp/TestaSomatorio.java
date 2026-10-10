@@ -1,4 +1,4 @@
-package exerciciosLP;
+package exercicioslp;
 import java.util.Scanner;
 public class TestaSomatorio {
 

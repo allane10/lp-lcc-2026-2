@@ -1,4 +1,4 @@
-package br.ufpb.dcx.allane.Restaurante;
+package br.ufpb.dcx.allane.restaurante;
 
 public class Refeicao {
     private String tipoRefeicao;

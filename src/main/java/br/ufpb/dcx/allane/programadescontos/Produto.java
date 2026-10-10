@@ -1,4 +1,4 @@
-package br.ufpb.dcx.allane.ProgramaDescontos;
+package br.ufpb.dcx.allane.programadescontos;
 
 public class Produto {
     private String nome;

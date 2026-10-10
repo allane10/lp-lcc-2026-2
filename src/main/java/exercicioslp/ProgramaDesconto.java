@@ -1,4 +1,4 @@
-package exerciciosLP;
+package exercicioslp;
 import javax.swing.JOptionPane;
 
 public class ProgramaDesconto {

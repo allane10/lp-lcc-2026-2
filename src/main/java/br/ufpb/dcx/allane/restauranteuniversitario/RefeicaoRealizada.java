@@ -1,4 +1,4 @@
-package br.ufpb.dcx.allane.RestauranteUniversitario;
+package br.ufpb.dcx.allane.restauranteuniversitario;
 
 public class RefeicaoRealizada {
 

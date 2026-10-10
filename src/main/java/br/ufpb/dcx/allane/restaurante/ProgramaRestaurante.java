@@ -1,4 +1,4 @@
-package br.ufpb.dcx.allane.Restaurante;
+package br.ufpb.dcx.allane.restaurante;
 
 import java.util.Scanner;
 

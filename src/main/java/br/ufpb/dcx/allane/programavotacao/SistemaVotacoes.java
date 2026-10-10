@@ -1,4 +1,4 @@
-package br.ufpb.dcx.allane.ProgramaVotacao;
+package br.ufpb.dcx.allane.programavotacao;
 
 import java.util.Scanner;
 
