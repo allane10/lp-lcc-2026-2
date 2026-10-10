@@ -16,9 +16,6 @@ public class ProgramaRestaurante {
             cont++;
         }
         System.out.printf("Total gasto com almoços R$ %.2f",totalAlmocos);
-
-
-
     }
 
 }

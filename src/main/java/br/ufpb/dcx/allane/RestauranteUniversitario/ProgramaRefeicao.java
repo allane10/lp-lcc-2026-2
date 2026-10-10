@@ -24,10 +24,8 @@ public class ProgramaRefeicao {
         verificacaoRefeicao(refeicoes, refeicaoEscolhida);
         System.out.println("FIM DO PROGRAMA");
 
-
         leitor.close();
     }
-
     //LETRA A, da questão 2
     public static int calculoQuantRefeicao(RefeicaoRealizada [] refeicoes, String tipoRefeicao){
         int quantRefeicaoescolhida = 0;

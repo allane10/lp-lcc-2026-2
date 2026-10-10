@@ -21,9 +21,10 @@ public class RefeicaoRealizada {
     public void setTipoRefeicao(String tipoRefeicao){
         this.tipoRefeicao = tipoRefeicao;
     }
+
     @Override
     public String toString(){
-        return "RefeicaoRealizada pelo aluno de matrícula "+ this.matriculaAluno + ", tipo da Refeição "
+        return "RefeicaoRealizada pelo aluno de matrícula "+ this.matriculaAluno + ", tipo da refeição "
                 + this.tipoRefeicao;
     }
 }

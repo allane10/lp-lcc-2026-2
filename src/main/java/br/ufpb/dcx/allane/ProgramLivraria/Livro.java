@@ -1,4 +1,4 @@
-package br.ufpb.dcx.allane.ProgramaLivraria;
+package br.ufpb.dcx.allane.ProgramLivraria;
 
 public class Livro {
     private String titulo;
@@ -34,10 +34,10 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro (" +
+        return "Livro {" +
                 "titulo ='" + this.titulo + '\'' +
                 ", autor ='" + this.autor + '\'' +
                 ", disponível =" + this.disponivel +
-                ')';
+                '}';
     }
 }

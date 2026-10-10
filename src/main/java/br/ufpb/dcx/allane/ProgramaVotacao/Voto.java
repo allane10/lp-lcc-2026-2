@@ -4,7 +4,7 @@ public class Voto {
     private String codigo;
     private int numeroChapa;
 
-    public Voto(String codigo, int numeroChapa) {
+    public Voto (String codigo, int numeroChapa) {
         this.codigo = codigo;
         this.numeroChapa = numeroChapa;
     }

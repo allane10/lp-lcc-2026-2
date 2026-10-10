@@ -17,6 +17,15 @@ public class SistemaVotacoes {
             votos[k] = new Voto(codigo, numeroChapa);
         }
         imprimeResultadoVotacao(votos);
+        System.out.println("Chapa com mais votos:");
+        int chapaMaisVotada = qualChapaTemMaisVotos(votos);
+        if(chapaMaisVotada == -1){
+            System.out.println("Houve empate entre as chapas mais votadas.");
+        } else {
+            System.out.println(chapaMaisVotada);
+        }
+
+
         leitor.close();
     }
 
@@ -69,7 +78,6 @@ public class SistemaVotacoes {
         } else {
             chapaMaisVotada = -1;
         }
-
         return chapaMaisVotada;
     }
 

@@ -1,4 +1,4 @@
-package br.ufpb.dcx.allane.ProgramaLivraria;
+package br.ufpb.dcx.allane.ProgramLivraria;
 
 import java.util.Scanner;
 
@@ -28,7 +28,7 @@ public class Livraria {
         System.out.println("Digite o nome de um autor e informaremos a quantidade de livros dele: ");
         String nomeAutorPesquisarLivros = leitor.nextLine();
         int quantidadeDeLivroAutor = contarLivrosPorAutor(livros, nomeAutorPesquisarLivros);
-        System.out.println("Este autor tem "+ quantidadeDeLivroAutor + "livros cadastrados aqui na livraria.");
+        System.out.println("Este autor tem "+ quantidadeDeLivroAutor + " livros cadastrados aqui na livraria.");
 
         leitor.close();
     }

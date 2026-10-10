@@ -17,7 +17,6 @@ public class Refeicao {
     public double getValorRefeicao() {
         return valorRefeicao;
     }
-
     public void setValorRefeicao(double valorRefeicao) {
         this.valorRefeicao = valorRefeicao;
     }
