@@ -16,11 +16,13 @@ public class ProgramaAgenda {
             switch(opcao) {
                 case 1:
                     String nome = JOptionPane.showInputDialog("Qual o nome?");
-                    String logradouro = JOptionPane.showInputDialog("Qual o logradouro (Rua, Av...)?");
-                    String numero = JOptionPane.showInputDialog("Qual o número?");
-                    String bairro = JOptionPane.showInputDialog("Qual o bairro?");
-                    Endereco end = new Endereco(logradouro,numero,bairro,"João Pessoa","Paraíba");
+                    //String logradouro = JOptionPane.showInputDialog("Qual o logradouro (Rua, Av...)?");
+                    //String numero = JOptionPane.showInputDialog("Qual o número?");
+                    //String bairro = JOptionPane.showInputDialog("Qual o bairro?");
+                    //String cep = JOptionPane.showInputDialog("Qual o cep? ");
+                    Endereco end = new Endereco("Rua X","40","centro","João Pessoa","Paraíba", "58297000");
                     Contato c = new Contato(nome, end);
+                    System.out.println(end.toString());
                     agenda.cadastraContato(c);
                     break;
                 case 2:
@@ -53,5 +55,6 @@ public class ProgramaAgenda {
 
         }
         JOptionPane.showMessageDialog(null, "Até mais!");
+
     }
 }
