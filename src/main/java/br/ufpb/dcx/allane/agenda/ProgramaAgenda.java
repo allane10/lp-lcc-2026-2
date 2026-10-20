@@ -16,10 +16,10 @@ public class ProgramaAgenda {
             switch(opcao) {
                 case 1:
                     String nome = JOptionPane.showInputDialog("Qual o nome?");
-                    //String logradouro = JOptionPane.showInputDialog("Qual o logradouro (Rua, Av...)?");
-                    //String numero = JOptionPane.showInputDialog("Qual o número?");
-                    //String bairro = JOptionPane.showInputDialog("Qual o bairro?");
-                    //String cep = JOptionPane.showInputDialog("Qual o cep? ");
+                    String logradouro = JOptionPane.showInputDialog("Qual o logradouro (Rua, Av...)?");
+                    String numero = JOptionPane.showInputDialog("Qual o número?");
+                    String bairro = JOptionPane.showInputDialog("Qual o bairro?");
+                    String cep = JOptionPane.showInputDialog("Qual o cep? ");
                     Endereco end = new Endereco("Rua X","40","centro","João Pessoa","Paraíba", "58297000");
                     Contato c = new Contato(nome, end);
                     System.out.println(end.toString());
