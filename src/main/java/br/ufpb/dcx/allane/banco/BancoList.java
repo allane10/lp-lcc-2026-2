@@ -51,33 +51,7 @@ public class BancoList {
         return contasSaldoNegativo;
     }
 
-    public double sacarDeConta(String numConta, String numAgencia, double valor) {
-        double saldoSituacaoConta = -4;
-        int contadorContaAgenciaEncontrada = 0;
-        //definindo que o valor de saque não pode ser menor ou igual a 0, pois se não daria erro por causa das
-        // legendas negativas que define.
-        if (valor == 0) {
-            return -3;
-        }
-        for (Conta c : this.contas) {
-            //conta existente
-            if (c.getNumeroConta().equals(numConta) && c.getNumeroAgencia().equals(numAgencia)) {
-                //conta e agencia existentes
-                contadorContaAgenciaEncontrada++;
-                if (c.getSaldo() >= valor) {
-                    saldoSituacaoConta = c.getSaldo() - valor;
-                    c.setSaldo(saldoSituacaoConta);
-                    break;
-                } //else {
-                   // saldoSituacaoConta = -2;
-                //}
-            }
-        }
-        //conta não existente
-        if (contadorContaAgenciaEncontrada == 0) {
-            saldoSituacaoConta = -1;
-        }
-        return saldoSituacaoConta;
-    }
+
+
 }
 
